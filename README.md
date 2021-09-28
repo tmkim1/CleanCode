@@ -50,6 +50,22 @@ public List<Cell> getFlaggedCelss() {
 
 - 발음하기 쉽고, 검색하기 쉬운 이름을 사용하라.
 
+- 클래스: 명사나 명사구, 메서드: 동사나 동사구 
+
+- 기발한 이름은 피하라 (농담, 소수만 아는 단어 등)
+
+- 의미 있는 맥락을 추가하라
+  - firstName, lastName 과 같은 변수명만 봐서는 무엇을 의미하는 Name인지 이해하기 어려움
+  - addrFirstName, addrLastName과 같이 맥락을 분명히 해주도록 하거나 Address 클래스를 생성하여 사용해주도록 한다. 
+  
+[함수] 
+
+- 작게 그리고 더 작게
+- 함수는 한 가지 기능만 수행
+- 서술적인 이름을 사용
+  - testableHtml -> SetupTeardownIncluder.render (함수가 하는 일을 표현) 
+- 함수의 인수 갯수는 적을수록 좋다, 플래그 인수는 최악 (함수가 한꺼번에 여러 가지를 처리한다고 대놓고 공표하는 셈) 
+
 
 
 
